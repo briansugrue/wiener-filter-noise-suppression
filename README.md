@@ -40,6 +40,6 @@ SNR is measured against the clean reference after least-squares scaling of the s
 
 ## Usage
 
-1. Download the NOIZEUS clean and noisy files.
+1. Download the sp05 folder (clean reference audio and noisy audio).
 2. Edit the three file paths at the top of `main.m` (`inputFile`, `outputFile`, `cleanFile`).
 3. Run `main.m`. It writes the enhanced audio, prints the gain and SNR diagnostics, and plots the waveforms and the Wiener gain over time and frequency.
